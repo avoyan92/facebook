@@ -1,0 +1,22 @@
+.messige {
+      width: 190px;
+      height: 56px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.messige > div {
+      width: 37px;
+      height: 37px;
+      border-radius: 50px;
+      background: #f0f2f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+}
+
+.messige>div:hover{
+      background: #CFD1D5;
+}

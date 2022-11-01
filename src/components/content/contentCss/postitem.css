@@ -1,0 +1,367 @@
+.postitem {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+      background: white;
+      border: 0.5px solid #e0e2e5;
+}
+
+.newpost {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+      background: white;
+      border: 0.5px solid #e0e2e5;
+}
+
+.posthead {
+      width: 100%;
+      height: auto;
+      padding: 5px 10px;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      
+      
+}
+
+.removepost{
+      width: 70px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      right: 100px;
+    top: 22px;
+    position: absolute;
+}
+
+.removepost > img {
+      width: 35px;
+      height: 35px;
+}
+
+.removepostdisplay {
+      display: none;
+}
+
+
+.postheadtitle {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  
+     
+
+}
+
+.redact {
+      width: 35px;
+      height: 35px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+}
+
+.redact > h2 {
+     height: 39px;
+      color: #65676b;
+}
+
+.t {
+      margin-bottom: 11px;
+      padding: 0 10px;
+}
+
+.redact:hover{
+     background: #dee0e6;
+}
+
+.postheadtitle > span {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+}
+
+.postheadtitle > span > img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50px;
+      margin-right: 5px;
+}
+
+.postimage>img {
+      width: 100%;
+      height: 240px;
+}
+
+.abouttitle {
+      margin-top: -4px;
+      width: 100%;
+      height: 60px;
+      background: #F0F2F5;
+      border: 0.5px solid #e0e2e5;
+      padding: 5px 10px;
+      display: flex;
+      align-items: center;
+}
+
+.likecount {
+      width: 100%;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+}
+
+.likecount > img {
+      width: 18px;
+      height: 18px;
+}
+
+.line {
+      margin: 0 10px;
+      border: 0.1px solid  #d6d8db;
+}
+
+.footer {
+      width: 100%;
+      height: 45px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+}
+
+.footer>div{
+      width: 150px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+}
+
+.like {
+      width: 150px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+}
+
+.footer>div:hover{
+     background: #e8e9ed;
+     border-radius: 5px;
+}
+
+.likeimg {
+      background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/LukK4tggAy7.png);
+      background-position: 0px -262px;
+      background-size: 26px 840px;
+      width: 18px;
+      height: 18px;
+      display: inline-block;
+      margin-right: 10px;
+}
+
+.commentimg {
+      background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/LukK4tggAy7.png);
+    background-position: 0px -222px;
+    background-size: 26px 840px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.shereimg {
+      background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/LukK4tggAy7.png);
+    background-position: 0px -282px;
+    background-size: 26px 840px;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.comment {
+    width: 100%;
+    height: auto;
+}
+
+.commentsdiv {
+      width: 100%;
+      height: 300px;
+      overflow-y: scroll;
+}
+
+.divdisplay {
+      display: none;
+}
+
+
+.commentinput {
+      width: 100%;
+      height: 65px;
+      background: white;
+      border-radius: 10px;
+      padding: 0 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 0.5px solid #e0e2e5;
+     
+}
+
+.commentinput > img {
+      width: 37px;
+      height: 37px;
+      border-radius: 50px;
+      cursor: pointer;
+
+}
+
+.commentinput > input {
+      width: 380px;
+      height: 37px;
+      background: #F0F2F5;
+      border-radius: 15px;
+      border: 0;
+      outline: none;
+      padding: 0 10px ;
+}
+
+.commentinput > button {
+      width: 40px;
+      height: 37px;
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+}
+
+.addedcomentdiv{
+      width: 100%;
+      height: auto;
+      padding: 10px;
+     
+}
+
+.commentdiv {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      display: flex;
+}
+
+.commentdiv > img {
+      width: 37px;
+      height: 37px;
+      border-radius: 50px;
+      margin-right: 10px;
+}
+.first{
+      width: auto;
+      height: auto;
+}
+.firstspan {
+      width: auto;
+      height: auto;
+      padding: 6px 10px;
+      background: #f0f2f5;
+      border-radius: 15px;
+}
+
+.seconddiv{
+      width: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+}
+.seconddiv >p {
+      cursor: pointer;
+      border-bottom : 2px solid transparent;
+      color: #65676b;
+      margin-top: 5px;
+      font-size: 13px;
+}
+
+.seconddiv--div {
+      display: flex;
+      align-items: center;
+      
+}
+
+
+
+.seconddiv> div >p {
+      cursor: pointer;
+      font-size: 13px;
+      margin-top: 7px;
+      padding: 0 4px;
+      color: #65676b;
+      border-bottom : 2px solid transparent;
+      
+
+
+      
+}
+
+.seconddiv>p:hover{
+      border-bottom : 2px solid #65676b;
+}
+
+.seconddiv--div>p:hover{
+      border-bottom : 2px solid #65676b;
+}
+
+.likecolor {
+      color: #2078f4;
+}
+
+.replaycommentinput {
+      width: 280px;
+      height: auto;
+      padding: 6px 10px;
+      background: #f0f2f5;
+      border-radius: 15px;
+      margin-left: 100px;
+}
+
+.replaycommentinputDisplay{
+      display: none;
+}
+
+.replaycommentinput > input {
+      border: none;
+      outline: none;
+      width: 200px;
+      height: 30px;
+      background: #f0f0f0;
+}
+.replaycommentinput>button {
+      border: none;
+      margin-left: 15px;
+      cursor: pointer;
+}
+
+.replaydiv {
+      width: auto;
+      height: auto;
+      display: flex;
+      margin-left: 55px;
+      margin-bottom: 10px;
+}
+.replaydiv> div {
+      width: auto;
+      height: auto;
+      padding: 6px 10px;
+      background: #f0f2f5;
+      border-radius: 15px;
+}

@@ -1,0 +1,22 @@
+.cotegory{
+      width: 590px;
+      height: 56px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-left: -100px;
+      
+}
+
+.cotegory > div {
+      width: 100px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+}
+
+.cotegory > div:hover {
+      background: #CCCCCC;
+}

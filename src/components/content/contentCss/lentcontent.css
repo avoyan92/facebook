@@ -1,0 +1,44 @@
+.lentcontent{
+      width: 500px;
+      height: auto;
+      margin-left: -20px;    
+}
+
+.contentinput {
+      width: 100%;
+      height: 55px;
+      background: white;
+      border-radius: 10px;
+      padding: 0 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 0.5px solid #e0e2e5;
+     
+}
+
+.contentinput > img {
+      width: 37px;
+      height: 37px;
+      border-radius: 50px;
+      cursor: pointer;
+
+}
+
+.contentinput > input {
+      width: 370px;
+      height: 37px;
+      background: #F0F2F5;
+      border-radius: 15px;
+      border: 0;
+      outline: none;
+      padding: 0 10px ;
+}
+
+.contentinput > button {
+      width: 40px;
+      height: 37px;
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+}
