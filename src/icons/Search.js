@@ -3,7 +3,7 @@ import React from "react";
 const Search = () => {
   return (
     <svg
-      fill='#65676b'
+      fill='#66686c'
       viewBox="0 0 16 16"
       width="1em"
       height="1em"

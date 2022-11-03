@@ -1,10 +1,11 @@
 import React from 'react';
 import './contentCss/rigtsidecontent.css'
+import MessigeList from './RightSideContent/CSS/MessigeList';
 
 const RightSideContent = () => {
       return (
             <div className='rightsidecontent'>
-                  <h3>Реклама</h3>
+                  <MessigeList />
             </div>
       );
 };

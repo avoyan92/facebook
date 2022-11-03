@@ -12,6 +12,7 @@ const AddNewPost = ({ createPost }) => {
       dataTime: time,
       newsFromImg: "/facebook/profilicon.png",
       title: value,
+      likeCount: 0
     };
     if (value.length > 0) {
       createPost(newPost)

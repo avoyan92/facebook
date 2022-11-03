@@ -1,6 +1,6 @@
 .leftside{
-      width: 280px;
-      height: 100vh;
+      width: 300px;
+      height: calc(100vh - 56px);
       overflow: auto;
       
       

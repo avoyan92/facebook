@@ -73,7 +73,7 @@ const PostItem = ({
       )}
       <div className="likecount">
         <img src="/facebook/apiimg/like.png" alt="photo" />
-        <p style={{ marginLeft: 5 }}>{like}</p>
+        {like > 0 && (<p style={{ marginLeft: 5 }}>{like}</p>)}
       </div>
       <div className="line"></div>
       <div className="footer">

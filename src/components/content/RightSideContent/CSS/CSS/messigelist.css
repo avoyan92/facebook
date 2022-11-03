@@ -1,0 +1,32 @@
+.lin{
+      width: 300px;
+      border: 0.1px solid  #d6d8db;
+      margin: 18px 0;
+}
+
+.searcdiv {
+      
+      display: flex;
+      justify-content: space-between;
+}
+
+.messigeitem {
+      width: 100%;
+      height: 40px;
+      align-items: center;
+      display: flex;
+      margin: 7px 0;
+      cursor: pointer;
+      padding-left: 5px;
+}
+.messigeitem:hover {
+      background: #e4e6eb;
+      border-radius: 10px;
+}
+
+.messigeitem > img {
+      width: 25px;
+      height: 25px;
+      border-radius: 50px;
+      margin-right: 7px;
+}
