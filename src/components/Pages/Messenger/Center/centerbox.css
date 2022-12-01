@@ -1,0 +1,51 @@
+.centerbox {
+      width: 760px;
+      height: calc(100vh - 56px);
+}
+
+.boxhead {
+      width: 760px;
+      height: 76px;
+      padding: 12px 6px;
+      display: flex;
+      align-items: center;
+      border: 1px solid #f1f1f1;
+}
+
+.boxhead>h4{
+      margin-left: 8px;
+}
+
+.massagebox {
+      width: 760px;
+      height: calc(100vh - 200px);
+      border: 1px solid #f1f1f1;
+}
+
+.boxmain {
+      width: 760px;
+      height: 60px;
+      padding: 12px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+}
+
+.inputdiv {
+      width: 590px;
+      height: 36px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      padding: 0 12px;
+      background: #F0F2F5;
+}
+
+.inputdiv>input {
+      border: none;
+      width: 570px;
+      background: #F0F2F5;
+      outline: none;
+      padding-right: 5px;
+}

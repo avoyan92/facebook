@@ -5,7 +5,7 @@ export const usersList= [
     name: "Гурген Абагян",
     userOnline: true,
     stories: true,
-    comment: "gg7i  nnnkk nnnnnn9u89u9",
+    comment: "wdkn l,lef",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const usersList= [
     name: "Рафаел Кочарян",
     userOnline: true,
     stories: true,
-    comment: "gg7i  nnnkk nnnnnn9u89u9",
+    comment: "ha ba vonc",
   },
   {
     id: 3,
@@ -21,22 +21,22 @@ export const usersList= [
     name: "Christine Avanesyan",
     userOnline: true,
     stories: false,
-    comment: "gg7i  nnnkk nnnnnn9u89u9",
+    comment: "hasel es ich",
   },
   {
     id: 4,
     img: "/facebook/profilicon.png",
-    name: "Yura Arzumanyan",
+    name: "Name Surname",
     userOnline: false,
     stories: false,
-    comment: "gg7i  nnnkk nnnnnn9u89u9",
+    comment: "barlis",
   },
   {
     id: 5,
     img: "/facebook/facebook.jpg",
-    name: "Toma Abagyan",
+    name: "Arshak Nalbandyan",
     userOnline: false,
-    comment: "gg7i  nnnkk nnnnnn9u89u9",
+    comment: "wdn owodwd",
     stories: false,
   },
   {
@@ -45,7 +45,7 @@ export const usersList= [
     name: "Сергей Денисов",
     stories: false,
     userOnline: true,
-    comment: "gg7i  nnnkk nnnnnn9u89u9",
+    comment: "jgig jhftyft",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const usersList= [
     name: "Shushan S-yan",
     stories: false,
     userOnline: false,
-    comment: "gg7i  nnnkk nnnnnn9u89u9",
+    comment: "jkbjb jbb",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const usersList= [
     name: "Spartak Qocharyan",
     stories: false,
     userOnline: false,
-    comment: "gg7i  nnnkk nnnnnn9u89u9",
+    comment: "kjgkb gfsdsdfx ljoj",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const usersList= [
     name: "Anna Muradyan",
     stories: false,
     userOnline: false,
-    comment: "gg7i  nnnkk nnnnnn9u89u9",
+    comment: "jhhbxxd  kjhuv htc",
   },
   {
     id: 10,
@@ -77,7 +77,23 @@ export const usersList= [
     name: "Kristi Araqelyan",
     stories: true,
     userOnline: true,
-    comment: "gg7i  nnnkk nnnnnn9u89u9",
+    comment: "jhvjh gbkb",
+  },
+  {
+    id: 11,
+    img: "/facebook/user/Сергей Денисов.jpeg",
+    name: "Сергей Денисов",
+    stories: false,
+    userOnline: true,
+    comment: "jgig jhftyft",
+  },
+  {
+    id: 12,
+    img: "/facebook/facebook.jpg",
+    name: "Arshak Nalbandyan",
+    userOnline: false,
+    comment: "wdn owodwd",
+    stories: false,
   },
 ];
 

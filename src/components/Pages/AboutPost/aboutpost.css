@@ -1,0 +1,28 @@
+.aboutpost {
+      width: 100%;
+      padding: 70px 150px;     
+}
+
+.aboutpost > h1 {
+      text-align: center;
+      margin-bottom: 50px;
+}
+
+.aboutpost > h2 {
+      text-align: center;
+      margin-bottom: 50px;
+}
+
+.aboutpost > div {
+      text-align: center;
+}
+
+.aboutpost > div> img {
+      width: 700px;
+      height: 400px;
+      margin-bottom: 50px;
+}
+
+.aboutpost > p {
+      line-height: 25px;
+}

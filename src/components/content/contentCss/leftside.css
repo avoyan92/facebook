@@ -7,17 +7,22 @@
   
 } 
 
+.abouttitle>h4 {
+      color: rgb(40, 37, 37);
+      list-style: none;
+}
+
 .content--div>img {
       margin-right: 7px;
-      width: 25px;
-      height: 25px;
+      width: 28px;
+      height: 28px;
       cursor: pointer;
 }
 
 .content--div {
       
       width: 280px;
-      height: 40px;
+      height: 45px;
       display: flex;
       align-items: center;
 }

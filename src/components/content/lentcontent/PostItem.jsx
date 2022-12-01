@@ -3,6 +3,7 @@ import Comments from "./Comments/Comments";
 import { useState } from "react";
 import "../contentCss/postitem.css";
 import RemovePostWindow from "../modalWindow/RemovePostWindow";
+import { Link } from "react-router-dom";
 
 const PostItem = ({
   title,
@@ -21,7 +22,6 @@ const PostItem = ({
   const [commentWindow, setCommentWindow] = useState(false);
   const [like, setLike] = useState(likeCount);
   const [removeWindow, setRemoveWindow] = useState(false);
-  const [statusLike, setStatusLike] = useState(0)
 
   const openCommentWindow = () => {
     setCommentWindow(!commentWindow);
@@ -67,13 +67,19 @@ const PostItem = ({
         {image && <img src={image} alt="photo" />}
       </div>
       {aboutTitle && (
-        <div className="abouttitle">
+       <Link to={`/about/${id}`}>
+         <div className="abouttitle">
           <h4>{aboutTitle}</h4>
         </div>
+       </Link>
       )}
       <div className="likecount">
-        <img src="/facebook/apiimg/like.png" alt="photo" />
-        {like > 0 && (<p style={{ marginLeft: 5 }}>{like}</p>)}
+        {like > 0 && (
+          <>
+            <img src="/facebook/apiimg/like.png" alt="photo" />
+            <p style={{ marginLeft: 5 }}>{like}</p>
+          </>
+        )}
       </div>
       <div className="line"></div>
       <div className="footer">
